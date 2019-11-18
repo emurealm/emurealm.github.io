@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>EMURΞALM</title>
+<script type="text/javascript" src="../code.js"></script>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<header class="parallax">
+  <h2><img src="../img/log0.png" alt="Snow" style="width:418px;height:102px"></h2>
+</header>
+<div class="navbar"> <a href="../index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Games <i class="fa fa-caret-down"></i> </button>
+    <div class="dropdown-content"> <a href="../NES.html">NES</a> <a href="../SNES.html">SNES</a> <a href="../CPS1.html">CPS1</a> <a href="../CPS2.html">CPS2</a> <a href="../CPS3.html">CPS3</a> </div>
+  </div>
+</div>
+<section>
+  <article>
+    <h1>R.C. Pro-Am II NP</h1>
+    <iframe src="https://www.retrogames.cc/embed/22051-r-c-pro-am-ii-usa.html" width="800" height="600" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+    <h2>What is Netplay?</h2>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class="btn info">What is Netplay?</button>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal"> 
+      
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header"> <span class="close">&times;</span>
+          <h2>What is Netplay?</h2>
+        </div>
+        <div class="modal-body">
+          <p>Well, Netplay is multiplayer gameplay over a network.</p>
+          <p>So you can play your favorite games online with your friends.</p>
+        </div>
+        <div class="modal-header">
+          <h2>How to play?</h2>
+        </div>
+        <div class="modal-body"> <img src="https://cdn.glitch.com/520e9340-3a6b-471c-a4ef-f3c682844ee4%2FScreenshot_66.png?v=1569696086821" alt="netplay" style="width:100%">
+          <ol type="1">
+            <li>Go to any game with "NP" on it.</li>
+            <li>Go to the Netplay button</li>
+            <li>Type in your username</li>
+            <li>Make a room</li>
+            <li>Ask your friends to join your room</li>
+            <li>WALLAH, YOU DID IT!</li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <h3>Have Fun!</h3>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+<script>
+
+	// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<footer>
+  <p>Copyright &copy; 2019 <a href="https://th3skeleton.github.io/pshel/" target="_blank">Parker Sheldon</a> - <i>Games are owned by various developers</i> </p>
+</footer>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>EMURΞALM</title>
+		<script src="code.js" type="text/javascript" charset="utf-8"></script>
+        <link href="style_index.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="https://www.editey.com/javascript.ico" />
+    </head>
+
+    <body>
+        <header class="parallax">
+             <h2><img src="img/log0.png" alt="Logo" style="width:418px;height:102px"></h2>
+        </header>
+        <div class="navbar">
+             <a href="index.html">Home</a>
+             <a href="webg.html">Web Games</a>
+            <div class="dropdown">
+                <button class="dropbtn"> Emu Games
+                     <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                     <a href="NES.html">NES</a>
+                     <a href="SNES.html">SNES</a>
+                     <a href="CPS1.html">CPS1</a>
+                     <a href="CPS2.html">CPS2</a>
+                     <a href="CPS3.html">CPS3</a>
+				</div>
+            </div>
+            <a href="chatroom.html">Chatroom</a>
+        </div>
+        <section>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <a target="_blank" href="index.html">
+                        <img src="img/Mario-Kart-64-1.jpg" style="width:100%">
+                    </a>
+                    <div class="text">Welcome Back!</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <a target="_blank" href="https://discord.gg/vAWXhPP">
+                        <img src="img/discord.png" style="width:100%">
+                    </a>
+                    <div class="text">Join my Discord!</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <a target="_blank" href="https://www.youtube.com/c/TheSkeletonGam3r">
+                        <img src="img/yt.png" style="width:100%">
+                    </a>
+                    <div class="text">Subscribe to My Channel :)</div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                 <span class="dot"></span> 
+                 <span class="dot"></span> 
+                 <span class="dot"></span> 
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 9000); // Change image every 10 seconds
+                }
+            </script>
+            <article>
+                 <h1>Update 9/9/19:</h1>
+                <p>Wow, how long has it been. I think this site is dead by now but I made an update. I added and fixed some games that were having problems. Hope you enjoy it : ).
+                </p>
+                 <b>Enjoy! - Pshel</b>
+                 <h2>Want to Play NES?</h2>
+                <li><a href="SuperMarioBros.html">Super Mario Bros</a>
+                </li>
+                <li><a href="TecmoSuperBowl.html">Super Tecmo Bowl</a>
+                </li>
+                <li><a href="IceHockey.html">Ice Hockey</a>
+                </li>
+                <li><a href="Tetris.html">Tetris</a>
+                </li>
+                <li><a href="TheLegendOfZelda.html">The Legend of Zelda</a>
+                </li>
+                <li><a href="Contra.html">Contra</a>
+                </li>
+                <br />
+                 <a href="NES.html">And More!</a>
+                 <h2>Want to Play SNES?</h2>
+                <li><a href="SuperMarioWorld.html">Super Mario World</a>
+                </li>
+                <li><a href="EWJ.html">Earthworm Jim</a>
+                </li>
+                <li><a href="MarioKartR.html">Mario Kart R by d4s</a>
+                </li>
+                <li><a href="ChronoTrigger.html">Chrono Trigger</a>
+                </li>
+                <li><a href="SuperMarioKart.html">Super Mario Kart</a>
+                </li>
+                <li><a href="DKC.html">Donkey Kong Country</a>
+                </li>
+                <br />
+                 <a href="SNES.html">And More!</a>
+                 <h2>Want to Play N64?</h2>
+                <li><a href="sm64.html">Super Mario 64</a>
+                </li>
+                <br>
+                 <a href="N64.html">And More!</a>
+                 <h2>Want to Play CPS1?</h2>
+                <li><a href="thepun.html">The Punisher</a>
+                </li>
+                <li><a href="c&d.html">Cadillacs and Dinosaurs</a>
+                </li>
+                <li><a href="sf2ce.html">Street Fighter II Champion Edition</a>
+                </li>
+                <li><a href="1941.html">1941</a>
+                </li>
+                <li><a href="ffightcps1.html">Final Fight</a>
+                </li>
+                <li><a href="mmtpb.html">Megaman: The Power Battles</a>
+                </li>
+                <br>
+                 <a href="CPS1.html">And More!</a>
+                 <h2>Want to Play CPS2?</h2>
+                <li><a href="19xx.html">19XX</a>
+                </li>
+                <li><a href="1944.html">1944</a>
+                </li>
+                <li><a href="mvsc.html">Marvel vs. Capcom</a>
+                </li>
+                <li><a href="megaman2.html">Mega Man 2: The Power Fighters</a>
+                </li>
+                <li><a href="sfa3.html">Street Fighter Alpha 3</a>
+                </li>
+                <li><a href="sfz2al.html">Street Fighter Zero Alpha 2</a>
+                </li>
+                <h2>Want to Play Arcade?</h2>
+                <li><a href="Arcade/galaga.html">Galaga</a>
+                </li>
+                <li><a href="Arcade/mspacman.html">Ms. Pac-Man</a>
+                </li>
+                <li><a href="Arcade/simpsons.html">The Simpsons</a>
+                </li>
+                <li><a href="Arcade/tmnt.html">Teenage Mutant Ninja Turtles</a>
+                </li>
+                <li><a href="Arcade/frogger.html">Frogger</a>
+                </li>
+                <li><a href="Arcade/gauntlet.html">Gauntlet</a>
+                </li>
+                <br>
+                 <a href="Arcade.html">And More!</a>
+                 <h2>Want to Play Gameboy?</h2>
+                <li><a href="PokeS.html">Pokemon Sapphire</a>
+                </li>
+                <li><a href="PokeB.html">Pokemon Blue</a>
+                </li>
+                <li><a href="PokeY.html">Pokemon Yellow</a>
+                </li>
+                <li><a href="MBD.html">Super Mario Bros. Deluxe</a>
+                </li>
+                <li><a href="kof95gb.html">The King of Fighters 95</a>
+                </li>
+                <br />
+                 <a href="Arcade.html">And More!</a>
+                <hr>
+                 <h2>Suggestions</h2>
+				<a href="Sug.html">Any Other Suggestions?</a>
+            </article>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.toggle').click(function() {
+                    $('.toggle').toggleClass('active')
+                    $('body').toggleClass('night')
+                })
+            })
+        </script>
+
+        <footer>
+            <p>Copyright &copy; 2019 <a href="https://th3skeleton.github.io/pshel/" target="_blank">Parker Sheldon</a> - <i>Games are owned by various developers</i>
+            </p>
+        </footer>
+    </body>
+
+</html>
